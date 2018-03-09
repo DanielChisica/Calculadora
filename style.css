@@ -1,0 +1,86 @@
+/**
+* Sets the orientation, padding and margins to the numbers div
+*/
+
+#scrn {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid aqua;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+/**
+* Sets a background for the body page
+*/
+body {
+    background-image: url(giphy.gif);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/**
+* Sets the orientation, padding and margins to the numbers div
+*/
+#record {
+    text-align: center;
+    border: 3px solid aqua;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+/**
+* Defines the orientation, padding and margins to the numbers div
+*/
+#numbers {
+    text-align: center;
+    border: 3px solid blue;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+/**
+* Configures the size of the history text box
+*/
+#history {
+    width: 90%;
+    height: 20%
+}
+
+/**
+* Defines the orientation, padding and margins to the operators div
+*/
+#operators {
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+/**
+* Gives the orientation of the class table
+*/
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}

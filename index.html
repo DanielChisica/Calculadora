@@ -1,11 +1,22 @@
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Calculadora</title>
-    </head>
 
-    <body>
-       <div class="wrapper">
-       <div id="scrn">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This program emulates an electronic calculator with basic operations">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Daniel Jiménez Chísica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="font-family: monospace">
+        <center>Calculator</center>
+    </h1>
+    <div class="wrapper">
+        <div id="scrn">
             <input type="text" id="screen" disabled value="0">
         </div>
 
@@ -14,38 +25,48 @@
         </div>
 
 
-        <div id="numbers">
+        <div id="numbers" style="text-align:center;">
 
-            <button id="num-0" class="btn-num">0</button>
-            <button id="num-1" class="btn-num">1</button>
-            <button id="num-2" class="btn-num">2</button>
-            <button id="num-3" class="btn-num">3</button>
-            <button id="num-4" class="btn-num">4</button>
-            <button id="num-5" class="btn-num">5</button>
-            <button id="num-6" class="btn-num">6</button>
-            <button id="num-7" class="btn-num">7</button>
-            <button id="num-8" class="btn-num">8</button>
-            <button id="num-9" class="btn-num">9</button>
-
-
-
-
+            <table style="width:40%" class="table">
+                <tr>
+                    <td><button id="num-7" class="btn-num">7</button></td>
+                    <td><button id="num-8" class="btn-num">8</button></td>
+                    <td><button id="num-9" class="btn-num">9</button></td>
+                </tr>
+                <tr>
+                    <td><button id="num-4" class="btn-num">4</button></td>
+                    <td><button id="num-5" class="btn-num">5</button></td>
+                    <td><button id="num-6" class="btn-num">6</button></td>
+                </tr>
+                <tr>
+                    <td><button id="num-1" class="btn-num">1</button></td>
+                    <td><button id="num-2" class="btn-num">2</button></td>
+                    <td><button id="num-3" class="btn-num">3</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="num-0" class="btn-num">0</button></td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
 
-        <div id="operators">
-            <button id="op:+" class="btn-opr">+</button>
-            <button id="op:-" class="btn-opr">-</button>
-            <button id="op:*" class="btn-opr">*</button>
-            <button id="op:/" class="btn-opr">/</button>
-            <button id="equal" class="btn-opr">=</button>
-            <button id="clear" class="btn-opr">C</button>
+        <div id="operators" style="text-align:center;">
+            <table style="width:40%" class="table">
+                <tr>
+                    <td><button id="op:+" class="btn-opr">+</button></td>
+                    <td><button id="op:-" class="btn-opr">-</button></td>
+                    <td><button id="op:*" class="btn-opr">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="op:/" class="btn-opr">/</button></td>
+                    <td><button id="equal" class="btn-opr">=</button></td>
+                    <td><button id="clear" class="btn-opr">C</button></td>
+                </tr>
+            </table>
         </div>
-        </div>
-
-
-
-
-        <script type="text/javascript" src="operations.js"></script>
-    </body>
+    </div>
+    <script type="text/javascript" src="operations.js"></script>
+</body>
 
 </html>
